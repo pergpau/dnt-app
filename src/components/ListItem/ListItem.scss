@@ -1,0 +1,20 @@
+.list-item-wrapper {
+  border: var(--color-grey) solid 4px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
+.list-item-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.list-item-description {
+  white-space: pre-line;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "DNT Nobel";
+  src: url("./assets/fonts/dtl-nobel.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DNT Nobel";
+  src: url("./assets/fonts/dtl-nobel-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  width: 100%;
+}
+
+body, #root {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: var(--color-black);
+  min-height: 100vh;
+  background-color: var(--color-red);
+}
+
+h1, h2, h3, h4 {
+  font-family: "DNT Nobel", sans-serif;
+  margin: 0 0 0 0;
+}
+
+.clickable {
+  &:hover {
+    cursor: pointer;
+  }
+}
